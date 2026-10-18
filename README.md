@@ -1,19 +1,24 @@
-# RouteShift
+# 🗺️ RouteShift
 
-**Road-aware iOS location simulation for development and testing.**
+### 🚗 Road-aware iOS location simulation for development & testing
 
-RouteShift is a macOS Python GUI that turns two coordinates into a road-following, timed GPX journey and plays it on a physical iPhone using `pymobiledevice3`. It is designed for developers testing location-aware applications, geofencing, map interfaces, route progress, and location-dependent UI without physically travelling the route.
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Platform](https://img.shields.io/badge/Platform-macOS-lightgrey)
+![iOS](https://img.shields.io/badge/iOS-17%2B-black)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Highlights
+RouteShift is a macOS Python GUI that turns two coordinates into a road-following, timed GPX journey and plays it on a physical iPhone using `pymobiledevice3`.
 
-- Real driving geometry from the OSRM routing service
-- Timed GPX generation with configurable journey duration
-- Optional wait period before departure
-- Physical iPhone location simulation through Apple's developer services
-- Live progress, ETA and activity log
-- Holds the destination after arrival
-- One-click restore to the device's real GPS
-- No personal coordinates embedded in the repository
+## ✨ Highlights
+
+- 🛣️ **Real road routing** — Driving geometry provided by OSRM
+- ⏱️ **Timed GPX journeys** — Configurable journey duration
+- ⏳ **Scheduled departure** — Optional wait period before starting
+- 📱 **Physical iPhone testing** — Uses Apple's developer location services
+- 🚗 **Live journey progress** — Progress, ETA and activity logging
+- 📌 **Destination hold** — Remains at the destination after arrival
+- 🔄 **Restore real GPS** — Return to genuine device location in one click
+- 🔐 **Privacy conscious** — No personal coordinates embedded in the repository
 
 ## Architecture
 

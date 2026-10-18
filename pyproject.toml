@@ -1,0 +1,9 @@
+[project]
+name = "routeshift-ios"
+version = "3.0.0"
+description = "Road-aware iOS location simulation for development and testing"
+requires-python = ">=3.11"
+dependencies = ["pymobiledevice3>=4.0.0"]
+
+[project.scripts]
+routeshift = "routeshift:main"

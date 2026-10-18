@@ -1,3 +1,7 @@
+🗺️ RouteShift lets you simulate a different location on your iPhone from your Mac. Pick a start and destination, and it can simulate the journey along real roads rather than instantly jumping between two points. This is useful for testing things like Maps, location-based apps and how simulated location behaves across iOS services such as Find My.
+
+
+
 # 🗺️ RouteShift
 
 ### 🚗 Road-aware iOS location simulation for development & testing
